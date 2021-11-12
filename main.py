@@ -9,9 +9,23 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+def plus(a, b):
+    c = a + b
+    return c
+
+
+def reduce(a,b):
+    c = a -b
+    return c
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    d = plus(32,444)
+    e = reduce(786,345)
+
+    print(f"d = {d}, e = {e}")
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
